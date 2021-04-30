@@ -241,6 +241,8 @@ class ParallelDataset(Dataset):
         Return a sentences iterator.
         """
         n_sentences = len(self.pos1) if n_sentences == -1 else n_sentences
+        print(n_sentences)
+        print(len(self.pos1))
         assert 0 < n_sentences <= len(self.pos1)
         assert type(shuffle) is bool and type(group_by_size) is bool
 
