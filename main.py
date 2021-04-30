@@ -393,6 +393,6 @@ if __name__ == '__main__':
     params.mono_dataset = 'en:en_train.pt,en_valid.pt,en_test.pt;pd:pd_train.pt,pd_valid.pt,pd_test.pt'
     params.para_dataset = 'en-pd:,XX_para_valid.pt,XX_para_test.pt'
     params.n_mono = -1
-    params.pretrained_emb = 'pidg_vect_RCSLS.txt'
+    params.pretrained_emb = 'aligned_pidg_vect_RCSLS.txt'
     
     main(params)
